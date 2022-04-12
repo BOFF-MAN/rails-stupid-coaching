@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+ .title-banner {
+   background-color: rgb(205, 205, 205);
+   margin: 0px;
+   padding: 16px;
+ }
+
+ .main-container {
+   margin: 0px;
+   padding: 16px;
+ }

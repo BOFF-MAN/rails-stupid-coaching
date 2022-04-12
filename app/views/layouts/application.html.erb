@@ -11,6 +11,12 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="title-banner">
+      <h1>Stupid Coaching</h1>
+      <%= link_to "Chat to Coach", ask_path %>
+    </div>
+    <div class="main-container">
+      <%= yield %>
+    </div>
   </body>
 </html>

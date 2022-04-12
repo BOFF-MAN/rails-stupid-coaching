@@ -1,0 +1,41 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.question-form {
+  display: flex;
+}
+
+#submit-btn {
+  margin: 0px;
+  background-color: rgb(71, 71, 165);
+  color: white;
+  width: 56px;
+  border-radius: 8px;;
+}
+
+#text-add {
+  margin: 0px;
+  width: 240px;
+  height: 24px;
+  border-radius: 8px;
+}
+
+.you-message {
+  padding: 2px 0px 2px 4px;
+  border-left: 4px solid grey;
+  background-color: rgb(247, 247, 247);
+  p {
+    margin: 8px 0px 8px 10px;
+  }
+}
+
+.coach-message {
+  margin: 16px 0px;
+  padding: 2px 0px 2px 4px;
+  border-left: 4px solid grey;
+  background-color: rgb(255, 254, 224);
+  p {
+    margin: 8px 0px 8px 10px;
+  }
+}
